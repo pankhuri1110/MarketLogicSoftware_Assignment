@@ -21,7 +21,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
  * This is the base class to instantiate Browser and containing other customised Selenium methods and other
  * method which can be used acroos different project of the organization.
  * 
- * @since July 2018
+ * @since August 2018
  * @author pankhurisharma
  *
  */
@@ -34,7 +34,7 @@ public class SolventSelenium {
 	 * This method is used to instantiate Firefox Browser on Different Operating Systems.
 	 * This method can be extended to use Chrome and other browsers.
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public static void launchBrowser() {	
@@ -62,7 +62,7 @@ public class SolventSelenium {
 	 * 
 	 * Types of Locators to Find Element.
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public enum LocatorType { 
@@ -82,7 +82,7 @@ public class SolventSelenium {
 	/**
 	 * This method is used to find element if PageFactory class is not used. 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public WebElement getElement(String locator, LocatorType type) {
@@ -118,7 +118,7 @@ public class SolventSelenium {
 	/**
 	 * This method is used to find list of elements if PageFactory class is not used. 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public List<WebElement> getElements(String locator, LocatorType type) {
@@ -151,7 +151,7 @@ public class SolventSelenium {
 	/**
 	 * This method is wait for page to load completely. 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public static void waitForPageToLoad() {
@@ -168,7 +168,7 @@ public class SolventSelenium {
 	/**
 	 * This method is wait for element to appear in DOM. 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public static void waitForElementToPresent(WebElement element){	
@@ -182,7 +182,7 @@ public class SolventSelenium {
 	/**
 	 * This method is wait for element to appear in DOM. 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public static void waitForElementToBeClickable(WebElement element){	

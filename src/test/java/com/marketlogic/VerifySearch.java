@@ -37,7 +37,7 @@ public class VerifySearch {
 	 */
 	@DataProvider(name = "Single_Search_Strings")
 	public static String[] searchString() {
-	        return new String[] { "Telsa", "facebook" };
+	        return new String[] { "selenium", "facebook" };
 	  }
 	
 	/**

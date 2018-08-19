@@ -42,7 +42,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * Initializing Page Factory elements in the constructor 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public GoogleHomePage() {
@@ -54,7 +54,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to enter the text in search text box
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public void enterSearchText(String searchText) {
@@ -64,7 +64,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to click on Search Button
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public void clickOnSearchButton() {
@@ -75,7 +75,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to perform search 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public void performSearch(String searchText) {
@@ -88,7 +88,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to get all the search results.
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public ArrayList<String> getAllSearchResults() {
@@ -102,7 +102,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to verify search results with a searched string 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public void verifySearchResultsForSingleString(String searchedString) {
@@ -115,7 +115,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to verify no search result
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public String verifyNoSearchResults() {
@@ -125,7 +125,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to clear search 
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public void clearSearch() {
@@ -135,7 +135,7 @@ public class GoogleHomePage extends SolventSelenium {
 	/**
 	 * This method is used to click on I'm feeling lucky button to bypass the search result
 	 *
-	 * @since July 2018
+	 * @since August 2018
 	 * @author pankhurisharma
 	 */
 	public void clickOnFeelingLuckyButton() {
